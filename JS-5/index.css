@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.container{
+    width: 500px;
+    box-shadow: 0 0 10px 0 black;
+}
+.heading{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0.5em 0.5em;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+    color: white;
+}
+#design{
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    padding: 0.3em 0.3em;
+}
+.input-design{
+    width: 80%;
+    padding: 0.2em 0.2em;
+    height: 4vh;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
