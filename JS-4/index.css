@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.container{
+    width: 300px;
+    box-shadow: 0 0 10px 0 black;
+}
+.title{
+    display: block;
+    width: 100%;
+    background-color: blue;
+    padding: 0.5em 0.5em;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+.sub-title{
+    text-align: center;
+    padding: 0.5em 0.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#weight{
+margin-left: 2em;
+width: 80%;
+height: 4vh;
+padding: 0.5em 0.2em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.subtitle-pound{
+    text-align: center;
+    padding: 0.5em 0.2em;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.output{
+    text-align: center;
+    padding: 0.2em 0.2em;
+    font-size: 2em;
+}
+@media screen and (max-width:500px) {
+    .container{
+        width: 250px;
+    }
+    .title{
+        padding: 0.5em 0.3em;
+        font-size: 1.5em;
+    }
+}
