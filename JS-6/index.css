@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.container{
+    width: 300px;
+    box-shadow: 0 0 10px 0 black;
+}
+.heading{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    padding: 0.2em 0.2rem;
+}
+#message{
+    margin: 1em 1em;
+    padding: 0.2em 0.2em;
+    font-size:1.2em; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    margin: 0em 6em;
+    padding: 0.3em 0.3em;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 7px;
+    background-color: lightgreen;
+}
+
+.vowel-output{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0.5em 0em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
