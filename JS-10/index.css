@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+.container{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px 0 black;
+    background: white;
+    border-radius: 10px;
+}
+.month{
+    display: block;
+    width: 100%;
+    background: red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3em 0.3em;
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.week{
+    text-align: center;
+    padding: 0.5em 0.2em;
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.day{
+    text-align: center;
+    font-size: 6em;
+    font-weight: bolder;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.year{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
