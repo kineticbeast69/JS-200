@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 10px 0 black;
+    background: white;
+    border-radius: 10px;
+    padding: 0.5em 0.5em;
+}
+.heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5em;
+    padding: 0em 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-weight: bolder;
+}
+.loan {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5em 0em;
+}
+.loan p{
+    font-size: larger;
+    padding: 0.25em 0.3em;
+
+}
+.loan input{
+    width: 90%;
+    height: 4vh;
+    padding: 0.1em 0.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+.interest {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5em 0em;
+}
+.interest p{
+    font-size: larger;
+    padding: 0.25em 0.3em;
+}
+.interest input{
+    width: 90%;
+    height: 4vh;
+    padding: 0.1em 0.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+.month {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5em 0em;
+}
+.month p{
+    font-size: larger;
+    padding: 0.25em 0.3em;
+}
+.month input{
+    width: 90%;
+    height: 4vh;
+    padding: 0.1em 0.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+#submit{
+margin-left: 5em;
+width: 100px;
+height: 40px;
+font-size: 1.3em;
+background-color: red;
+color: white;
+font-weight: 400;
+border-radius: 5px;
+margin-top: 0.5em;
+}
