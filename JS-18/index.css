@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 10px 0 black;
+    background: white;
+    border-radius: 10px;
+}
+.heading{
+    display: block;
+    background-color: wheat;
+    width: 100%;
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 0.3em 0.3em;
+    border-radius:  10px 10px 0 0;
+}
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hour{
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    padding: 0.2em 0.2em;
+}
+
+.minute{
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    padding: 0.2em 0.2em;
+}
+.second{
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    padding: 0.2em 0.2em;
+}
+.millisecond{
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    padding: 0.2em 0.2em;
+}
