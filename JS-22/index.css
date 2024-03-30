@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 10px 2px cornflowerblue,0 0 10px 5px cornflowerblue;
+    background: white;
+    border-radius: 10px;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    margin: 0.6em 0.5em;
+}
+.height-box{
+    display: block;
+    width: 100%;
+}
+.height-box label{
+    text-align: center;
+    display: block;
+    padding: 0.5em 0.5em;
+}
+.height-box input{
+    width: 70%;
+    margin: 0.3em 2.7em;
+    height: 7vh;
+    border: none;
+    border-bottom: 4px solid cornflowerblue;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.weight-box label{
+    text-align: center;
+    display: block;
+    padding: 0.5em 0.5em;
+margin-top: 1em;
+}
+.weight-box input{
+    width: 70%;
+    margin: 0.3em 2.7em;
+    height: 7vh;
+    border: none;
+    border-bottom: 4px solid cornflowerblue;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 1.3em;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin: 1.5em 7em;
+}
+.output{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
