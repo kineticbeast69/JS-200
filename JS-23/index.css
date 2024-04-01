@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+}
+.container{
+    height: fit-content;
+    width: 100vw;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container{
+    height: 90vh;
+    width: 50%;
+    margin: 0 2em;
+    background: white no-repeat scroll center;
+    margin: 10px;
+    filter: grayscale(1);
+    flex: 1;
+    transition: flex 0.5s ease-in-out;
+}
+.active{
+    flex: 3;
+    filter: grayscale(0);
+}
+.inner-container h3{
+color: white;
+font-size: 24px;
+background-color: rgba(0, 0, 0, 0.614);
+opacity: 0.5;
+text-align: center;
+width: 100%;
+padding: 0.3em 0.3em;
+text-transform: capitalize;
+}
+#inner-container1{
+background-image: url(images/mumbai.jpg);
+}
+#inner-container2{
+background-image: url(images/spain.jpg);
+}
+#inner-container3{
+background-image: url(images/germany.jpg);
+}
+#inner-container4{
+background-image: url(images/japan.jpg);
+}
+#inner-container5{
+background-image: url(images/america\ .jpg);
+}
+
