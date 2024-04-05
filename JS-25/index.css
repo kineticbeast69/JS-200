@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: brown;
+}
+.container{
+    height: fit-content;
+    width: 100vw;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    text-align: center;
+    margin: 3em 0;
+    border: none;
+    background-color: white;
+    padding: 1em 1em;
+    position: relative;
+    border-radius: 5px;
+}
+.images{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: 15px solid brown;
+    border-radius: 7em;
+    top: -7em;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 7em;
+}
+.person-name{
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0.2em 0.2em;
+    margin-top: 2em;
+}
+.title{
+    font-size: 1.4em;
+    color: gray;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.location{
+    font-size: 1.4em;
+    color: gray;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dob{
+    font-size: 1.4em;
+    color: gray;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.email{
+    font-size: 1.4em;
+    color: gray;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button{
+    width: max-content;
+    padding: 1em 1em;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
