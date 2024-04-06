@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+.container{
+    height: fit-content;
+    width: fit-content;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 1.5em;
+    padding: 0.5em 0.5em;
+}
+.color{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 0.817);
+    border-radius: 1.3em;
+    transition: 0.5s ease-in-out;
+    border: 20px solid gray;
+}
+button{
+    width: 100%;
+    padding: 0.3em 0.3em;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 1em 0;
+    border-radius: 1.3em;
+}
