@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+.container{
+    height: fit-content;
+    width: fit-content;
+    padding: 0.3em 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 1.5em;
+    padding: 0.5em 0.5em;
+    background-color: skyblue;
+    text-align: center;
+}
+.heading{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.2em 0.5em;
+}
+.show-number h1{
+    text-align: center;
+    padding: 0.3em 0.3em ;
+    font-size: 3rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.count-meter{
+    font-size: 2em;
+    padding: 0.3em 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count-meter span{
+    font-size: 2em;
+}
+.user-number{
+    display: block;
+    width: 100%;
+}
+.user-number input{
+    width: 120px;
+    padding: 0.2em 0.2em;
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius: 1em;
+}
+button{
+width: 60px;
+height: 40px;
+margin: 0.5em 0;
+border-radius:0.5em;
+background-color: rgba(0, 0, 255, 0.221);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1em;
+}
