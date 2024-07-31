@@ -1,1 +1,64 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>PataraChar</title>
+  </head>
+  <body>
+    <header>
+      <!-- bigger devices nav-->
+      <nav>
+        <ul>
+          <li class="logo" onclick="navClick('india')">PataraChar</li>
+          <li>
+            <ul class="options">
+              <li id="india" onclick="navClick('india')">Home</li>
+              <li id="sports" onclick="navClick('sports')">Sports</li>
+              <li id="politics" onclick="navClick('politics')">Politics</li>
+              <li id="technology" onclick="navClick('technology')">
+                Technology
+              </li>
+            </ul>
+          </li>
+          <li class="search-area">
+            <span class="input-value">
+              <input
+                type="search"
+                id="search"
+                placeholder="search..."
+                value=""
+              />
+            </span>
+            <span
+              ><label for="search">
+                <button type="button" class="search-btn">search</button>
+              </label></span
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container"></div>
+    </main>
+    <!-- templating the content over here -->
+    <template>
+      <div class="card">
+        <div class="card-image"></div>
+        <div class="card-body">
+          <div class="card-heading">hsadfhsajdasbxhbsajkasbxjhsabxjha</div>
+          <div class="card-para">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+            debitis nihil aliquam aut praesentium. Saepe itaque nostrum, numquam
+            tempore laborum repudiandae, est quam architecto, magnam quos
+            blanditiis.
+          </div>
+        </div>
+      </div>
+    </template>
+    <footer>All the right are resvered.PatraChar 2024</footer>
+    <script src="index.js"></script>
+  </body>
+</html>

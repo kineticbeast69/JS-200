@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: auto;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Fredoka", sans-serif;
+}
+header nav {
+  width: 100%;
+  background-color: black;
+  padding: 1em 0em;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+ul li {
+  margin: 0 1em;
+}
+li:first-child {
+  margin-right: auto;
+}
+.logo {
+  font-size: 2.5em;
+  font-weight: 700;
+  transition: transform ease-in 0.2s;
+}
+.logo:hover {
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+li:last-child {
+  margin-left: auto;
+}
+.options li {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.options li:hover {
+  color: rgba(45, 45, 236, 0.816);
+}
+.search-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#search {
+  width: 17vw;
+  height: 5.5vh;
+  border-bottom: 2px solid gray;
+  padding: 0.2em 0.3em;
+  font-size: 1.2em;
+  margin-right: 0.3em;
+  border-radius: 0.3em;
+}
+.search-btn {
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 0.3em 0.4em;
+  border-radius: 0.3em;
+  background-color: rgba(231, 170, 14, 0.93);
+}
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgba(196, 193, 190, 0.977);
+}
+.container {
+  width: 80%;
+  padding: 1em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  overflow: hidden;
+}
+.card {
+  width: fit-content;
+  text-align: center;
+  background-color: white;
+  padding: 0.7em 0.5em;
+  border-radius: 0.3em;
+  transition: transform ease-in 0.3s;
+  overflow: hidden;
+}
+.card:hover {
+  transform: scale(0.95);
+}
+.card-image img {
+  width: 360px;
+  height: 210px;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+}
+.card-heading {
+  text-align: justify;
+  width: 360px;
+  font-size: 1.45em;
+  font-weight: bold;
+  padding: 0.1em 0;
+  margin-bottom: 0.3em;
+}
+.card-para {
+  display: block;
+  margin: auto;
+  width: 360px;
+  text-align: justify;
+  height: fit-content;
+  font-size: 1.2em;
+  padding-bottom: 0.3em;
+}
+footer {
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 1em 0;
+}
