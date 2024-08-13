@@ -42,16 +42,38 @@ sizeIcons.forEach((icon) => {
     paraText.style.fontSize = `${count}em`;
   });
 });
-
+let weightCount = 0;
+let italicCount = 0;
+let underCount = 0;
 weightIcons.forEach((icon) => {
   icon.addEventListener("click", () => {
     let value = icon.value;
     if (value === "Bold") {
-      paraText.style.fontWeight = "bold";
-    } else if (value === "Italic") {
-      paraText.style.fontStyle = "italic";
-    } else if (value === "underline") {
-      paraText.style.textDecoration = "underline";
+      if (weightCount === 0) {
+        paraText.style.fontWeight = "bolder";
+        weightCount = 1;
+      } else {
+        paraText.style.fontWeight = "normal";
+        weightCount = 0;
+      }
+    }
+    if (value === "Italic") {
+      if (italicCount === 0) {
+        paraText.style.fontStyle = "italic";
+        italicCount = 1;
+      } else {
+        paraText.style.fontStyle = "normal";
+        italicCount = 0;
+      }
+    }
+    if (value === "underline") {
+      if (underCount === 0) {
+        paraText.style.textDecoration = "underline";
+        underCount = 1;
+      } else {
+        paraText.style.textDecoration = "none";
+        underCount = 0;
+      }
     }
   });
 });
