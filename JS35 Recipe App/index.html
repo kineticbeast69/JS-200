@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Web App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Recipe Finder</h1>
+      <p>Search Mouth Watering recipe to satisfy your craving</p>
+      <form id="form">
+        <input
+          type="search"
+          placeholder="Search for a recipe"
+          id="inputValue"
+        />
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <main>
+      <h1 class="banner"></h1>
+
+      <!-- cusine list by country -->
+      <ul class="cusine-list">
+        <li id="indian" onclick="navClick('indian')">Indian</li>
+        <li id="chinese" onclick="navClick('chinese')">Chinese</li>
+        <li id="japanese" onclick="navClick('japanese')">Japanese</li>
+        <li id="french" onclick="navClick('french')">French</li>
+        <li id="russian" onclick="navClick('russian')">Russian</li>
+      </ul>
+
+      <!-- all the  meal cards are here -->
+      <div class="meal-container"></div>
+
+      <!-- modal for showing the recipe is here -->
+      <aside id="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <img id="recipeImg" src="images/bg_image.jpg" alt="Recipe Image" />
+
+          <div class="title-video">
+            <h2 id="recipeTitle">Tomato Soup</h2>
+            <a id="youtubeLink" target="_blank">Watch Video</a>
+          </div>
+
+          <h3>Ingredients :-</h3>
+          <ul id="ingredientList"></ul>
+
+          <h3>Instructions</h3>
+          <p id="recipeInstructions">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            ab, incidunt dolor nemo fugiat adipisci blanditiis ex dolore hic
+            quos ipsum exercitationem id!
+          </p>
+        </div>
+      </aside>
+    </main>
+  </body>
+  <script src="index.js"></script>
+  <script src="searchRecipe.js"></script>
+  <script src="viewRecipe.js"></script>
+</html>
